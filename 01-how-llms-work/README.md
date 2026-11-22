@@ -13,13 +13,22 @@ Needs Python 3, no packages and no API key.
 
     python next_token.py
 
-It learns from a few lines of text which token tends to follow which, then generates by scoring candidates, picking one, appending it and repeating. Sample output:
+It first runs a demo, then lets you type your own prompts. Sample output:
 
     Candidates for the next token:
       paris      80%
       lyon       20%
 
-Run it with different seeds and it sometimes picks "lyon". It picks what is likely in its text, not what is true. Edit `TEXT` and the "facts" change. A real LLM runs the same loop, with a neural network in place of the count table.
+Try your own:
+
+    python next_token.py --prompt "the capital of italy is"
+    python next_token.py --text mytext.txt
+
+The toy model only knows the lines of text it learned from, so use words that appear in them (countries and capitals work). Run it with different seeds and it sometimes picks "lyon". It picks what is likely in its text, not what is true.
+
+## Teach it your own facts
+
+Put a few sentences in a text file, one fact repeated a few times, and run with `--text`. The model repeats whatever your text says, true or not. That is the same weakness a real LLM has, with a neural network in place of the count table.
 
 ## Takeaway
 
