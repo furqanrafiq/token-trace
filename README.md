@@ -10,7 +10,7 @@ Each topic has a short video, a small runnable example, and notes on what breaks
 
 | # | Topic | Status |
 |---|-------|--------|
-| 01 | How LLMs work (next token prediction) | Video ready |
+| 01 | How LLMs work (next token prediction) | Video and example ready |
 | 02 | Tokens and context windows | Planned |
 | 03 | Prompts that survive production | Planned |
 | 04 | Tool calling | Planned |
