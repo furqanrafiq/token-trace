@@ -5,4 +5,4 @@
 3. It picks one, adds it to the text, and does it again. One token at a time.
 4. That's why it sounds sure, even when it's wrong. It picks what's likely, not what's true.
 5. So at work: give it the real documents, and check its answers.
-6. Next: tokens and context windows. Follow Token Trace.
+6. New explainers every week. Next: tokens and context windows. Follow Token Trace.
