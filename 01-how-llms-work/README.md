@@ -3,7 +3,6 @@
 An LLM does not look up answers. It predicts the next token, appends it, and repeats.
 
 Files:
-- `video.mp4`: the 30 second explainer
 - `script.md`: the voiceover script
 - `next_token.py`: a tiny next-token predictor you can run
 
